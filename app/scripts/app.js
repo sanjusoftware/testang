@@ -7,10 +7,6 @@ angular.module('testangApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/newview', {
-        templateUrl: 'views/newview.html',
-        controller: 'NewviewCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
